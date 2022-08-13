@@ -15,7 +15,7 @@ const Footer = (props) => {
     const [booksData, setBooksData] = useState(booksDetails);
 
     return (
-        <footer className='p-10 md:grid md:grid-cols-2 md:gap-10'>
+        <footer className='p-10 md:grid md:grid-cols-2 md:gap-10 lg:gap-20'>
             <section>
                 <WatchWord watchWord={watchWordData} />
                 <Contacts contacts={contactsData} />
