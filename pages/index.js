@@ -13,8 +13,7 @@ export default function Home() {
         <meta name="description" content="Pastor Martin Olusakin." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <BooksTop />
+      {/* <BooksTop /> */}
       
     </div>
   );
