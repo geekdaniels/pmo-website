@@ -4,6 +4,8 @@ import BooksTop from "../components/books-list/BooksTop";
 import data from "../books_data";
 import Books from "../components/books-list/Books";
 import styles from "../styles/Home.module.css";
+import aboutPage from "./aboutPage";
+
 
 export default function Home() {
   return (
@@ -13,9 +15,10 @@ export default function Home() {
         <meta name="description" content="Pastor Martin Olusakin." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Link href="/about" />
 
       <BooksTop />
-      
+
     </div>
   );
 }
