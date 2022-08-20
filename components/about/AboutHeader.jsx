@@ -2,7 +2,7 @@ import Image from "next/image";
 import pmo from "../../public/images/pmo.webp";
 const AboutHeader = () => {
   return (
-    <div className="flex md:flex-wrapgap-4 m-6 ">
+    <div className="flex gap-4 m-6 ">
       <div className="w-full h-full">
         <Image src={pmo} className="w-full h-full" />
       </div>
