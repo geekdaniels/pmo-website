@@ -82,7 +82,7 @@ const Index = (props) => {
 
 
     return (
-        <form className='sm:mt-16'>
+        <form className='mt-16 sm:mt-0'>
             <CustomBooking
                 customOptions={customOptions}
                 openCustomOptions={openCustomOptions}

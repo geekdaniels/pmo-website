@@ -67,7 +67,7 @@ const CustomBooking = ({customOptions, isCustomOptions, openCustomOptions, handl
                             return (
                                 <li 
                                     key={id} 
-                                    className='hover:bg-headerBg focus:border-headerBg focus:outline-0 border-0 px-5 py-2 hover:bg-optionsBg'
+                                    className='hover:bg-headerBg cursor-pointer focus:border-headerBg focus:outline-0 border-0 px-5 py-2 hover:bg-optionsBg'
                                     onClick={(e) => handleSelectedOptions(e)}
                                 >
                                     {option}
