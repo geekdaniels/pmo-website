@@ -1,10 +1,10 @@
 import React from "react";
-import Booking from './booking'
+import Navbar from "../layout/navbar";
 
 export default function Layout({ children }) {
   return (
     <>
-      <Booking />
+      <Navbar />
       <div>{children}</div>
     </>
   );
