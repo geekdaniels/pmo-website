@@ -15,8 +15,6 @@ module.exports = {
         },
         gridTemplateColumns: {
         // Simple 16 column grid
-        'auto': 'minmax(auto, auto)'
-        },
       },
     },
     plugins: [],

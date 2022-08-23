@@ -6,6 +6,7 @@ import amabooks from "../../public/images/amazon_Books.png";
 export default function BooksTop() {
   return (
     <div className="relative bg-black py-5">
+
       <div className="absolute left-10 bg-white w-2 h-[110px] sm:left-[90px]"></div>
       <h2 className=" text-xl bg-[#42cbf5] w-fit py-3 items-center rounded font-semibold px-2 mx-[90px] sm:ml-[120px]">
         Read and unveil the GREATNESS in you
@@ -24,6 +25,7 @@ export default function BooksTop() {
         </div>
         <div>
           <h3 className="mr-[150px] mt-3 text-xl  font-semibold sm:mt-0 sm:text-5xl sm:flex sm:justify-end">
+
             See available books <br /> Visit the store
           </h3>
           <button
@@ -34,11 +36,13 @@ export default function BooksTop() {
           </button>
         </div>
       </div>
+
       <div className="block sm:flex">
         {data.map((book) => (
           <Books key={book.id} book={book} />
         ))}
       </div>
+
     </div>
   );
 }
