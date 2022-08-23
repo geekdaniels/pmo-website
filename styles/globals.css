@@ -30,3 +30,25 @@ a {
     background: black;
   }
 }
+
+/* Centered text */
+.slide_image {
+  height: 80vh;
+  width: 100%;
+}
+
+.centered h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: #42cbf5;
+  background: -webkit-linear-gradient(45deg, #2b9fc2, #42cbf5 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.centered p {
+  font-weight: 400;
+  font-size: 18px;
+}
