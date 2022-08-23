@@ -7,8 +7,8 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-          'headerBg': '#45b3ba',
-          'optionBg': '#5c5757',
+          'headerBg': '#42cbf5',
+          'optionBg': '#f5f5f5',
           'formArrow': 'rgb(69, 179, 186)',
           'inputBg': '#5a5e64',
           'modalBg': '#dfdfe1'
