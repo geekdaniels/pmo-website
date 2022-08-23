@@ -52,9 +52,11 @@ const Index = (props) => {
     const handleOther = (e) => {
         e.preventDefault()
         const content = otherRef.current.value
-        const option = {id: customOptionsSelected.length + 1, content}
-        setCustomOptionsSelected([...customOptionsSelected, option])
-        setIsOther(false)
+        if(content) {
+            const option = {id: customOptionsSelected.length + 1, content}
+            setCustomOptionsSelected([...customOptionsSelected, option])
+            setIsOther(false)
+        }
     };
 
     const handleBookerInfo = (e) => {
