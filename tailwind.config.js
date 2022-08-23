@@ -7,6 +7,8 @@ module.exports = {
     theme: {
       extend: {
         colors: {
+          'footerTitle': '#afabad',
+          'footerParagraph': '#cac8c9',
           'headerBg': '#42cbf5',
           'optionBg': '#f5f5f5',
           'formArrow': 'rgb(69, 179, 186)',
@@ -15,6 +17,7 @@ module.exports = {
         },
         gridTemplateColumns: {
         // Simple 16 column grid
+
       },
     },
     plugins: [],
