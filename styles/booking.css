@@ -1,0 +1,8 @@
+.show ul {
+    height:min-content;
+}
+.show h3 {
+    background: #42cbf5;
+    font-weight: 600;
+    font-size: large;
+}
