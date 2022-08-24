@@ -20,13 +20,15 @@ const Footer = (props) => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2">
             <div className="flex-auto mb-6 md:mb-0">
-              <a href="https://flowbite.com/" className="flex items-center">
-                <img
-                  src="/images/PMO.svg"
-                  alt=""
-                  className="w-48 h-10 object-cover"
-                />
-              </a>
+              <Link href="/">
+                <a className="flex items-center">
+                  <img
+                    src="/images/PMO.svg"
+                    alt=""
+                    className="w-48 h-10 object-cover"
+                  />
+                </a>
+              </Link>
             </div>
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
               <div>
