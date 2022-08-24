@@ -65,7 +65,7 @@ const BookerInfo = ({bookerInfo, handleBookerInfo, handleSubmit, inputsSectionRe
                     className='h-10 bg-optionBg outline-none focus:border-2 focus:border-headerBg px-2 text-black'
                 />
             </div>
-            <div className='grid mb-3 gap-1' >
+            <div className='grid mb-3 gap-1 ' >
                 <label htmlFor='eventDate' className='text-black'>
                     Date of Event *
                 </label>

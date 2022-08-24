@@ -40,7 +40,7 @@ const Options = () => {
                 return(
                     <div 
                         key={id} 
-                        className='mb-4 cursor-pointer'
+                        className='mb-4 cursor-pointer text-black'
                     >
                         <h3 className='bg-optionBg px-5 py-3'>
                             {title}
@@ -49,7 +49,7 @@ const Options = () => {
                             {subOptions.map(subOption => {
                                 const {id, option} = subOption
                                 return(
-                                    <li key={id} className='px-3 py-2'>
+                                    <li key={id} className='px-3 py-2 text-black'>
                                         {option}
                                     </li>
                                 )
