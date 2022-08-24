@@ -5,13 +5,13 @@ import amabooks from "../../public/images/amazon_Books.png";
 
 export default function BooksTop() {
   return (
-    <div className="relative bg-black py-5">
 
-      <div className="absolute left-10 bg-white w-2 h-[110px] sm:left-[90px]"></div>
+    <div className="relative bg-[#e8e9ec] py-5">
+      <div className="absolute left-10 bg-black w-2 h-[110px] sm:left-[90px]"></div>
       <h2 className=" text-xl bg-[#42cbf5] w-fit py-3 items-center rounded font-semibold px-2 mx-[90px] sm:ml-[120px]">
         Read and unveil the GREATNESS in you
       </h2>
-      <h1 className="ml-[90px] my-5 text-white font-bold text-4xl sm:ml-[120px]">
+      <h1 className="ml-[90px] my-5 text-black font-bold text-4xl sm:ml-[120px]">
         BOOKS BY PMO
       </h1>
       <div className="block mx-auto w-[85%] bg-[#42cbf5] my-5 rounded py-5 pl-[30px] sm:ml-[90px] sm:flex sm:justify-between">
