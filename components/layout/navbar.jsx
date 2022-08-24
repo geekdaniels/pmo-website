@@ -47,6 +47,7 @@ const Navbar = () => {
             <ul className="flex flex-col md:flex-row ml-auto p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
               <li>
                 <Link href="/" aria-current="page">
+
                   <a
                     className={`block py-2 pr-4 pl-3 md:bg-transparent md:p-0 ${
                       currentRoute === "/"
@@ -54,12 +55,14 @@ const Navbar = () => {
                         : "text-gray-700"
                     }`}
                   >
+
                     Home
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="/about">
+
                   <a
                     className={`block py-2 pr-4 pl-3 md:bg-transparent md:p-0 ${
                       currentRoute === "/about"
@@ -67,6 +70,7 @@ const Navbar = () => {
                         : "text-gray-700"
                     }`}
                   >
+
                     About
                   </a>
                 </Link>
@@ -74,6 +78,7 @@ const Navbar = () => {
 
               <li>
                 <Link href="/bookings">
+
                   <a
                     className={`block py-2 pr-4 pl-3 md:bg-transparent md:p-0 ${
                       currentRoute === "/bookings"
@@ -81,6 +86,7 @@ const Navbar = () => {
                         : "text-gray-700"
                     }`}
                   >
+
                     Bookings
                   </a>
                 </Link>
@@ -88,6 +94,7 @@ const Navbar = () => {
 
               <li>
                 <Link href="/contact">
+
                   <a
                     className={`block py-2 pr-4 pl-3 md:bg-transparent md:p-0 ${
                       currentRoute === "/contact"
@@ -95,6 +102,7 @@ const Navbar = () => {
                         : "text-gray-700"
                     }`}
                   >
+
                     Contact
                   </a>
                 </Link>
