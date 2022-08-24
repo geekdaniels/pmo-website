@@ -5,9 +5,9 @@ import Forms from './forms'
 
 const Index = () => {
     return (
-        <div className='px-14 sm:grid mb-8'>
+        <div className='md:px-24 md:grid mb-8'>
             <Header />
-            <main className='mt-8 sm:grid sm:grid-cols-2 sm:gap-x-10'>
+            <main className='px-5 mt-8 md:px-0 md:grid md:grid-cols-2 md:gap-x-10'>
                 <Options />
                 <Forms />
             </main>
