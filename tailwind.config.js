@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        courgette: ["Courgette", "cursive"],
+      },
       colors: {
         footerTitle: "#afabad",
         footerParagraph: "#cac8c9",

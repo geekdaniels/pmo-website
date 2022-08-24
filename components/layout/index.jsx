@@ -3,14 +3,15 @@ import Footer from "./footer";
 
 import Navbar from "../layout/navbar";
 
-
 export default function Layout({ children }) {
   return (
     <>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
-      
+      <div className="bg-white">
+        
+        <Navbar />
+        <div>{children}</div>
+        <Footer />
+      </div>
     </>
   );
 }
