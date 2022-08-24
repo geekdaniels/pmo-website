@@ -1,9 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
+  const router = useRouter();
+  const currentRoute = router.pathname;
 
   return (
     <>
@@ -44,14 +47,30 @@ const Navbar = () => {
             <ul className="flex flex-col md:flex-row ml-auto p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
               <li>
                 <Link href="/" aria-current="page">
-                  <a className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:text-blue-700 md:p-0">
+
+                  <a
+                    className={`block py-2 pr-4 pl-3 md:bg-transparent md:p-0 ${
+                      currentRoute === "/"
+                        ? "text-white bg-blue-700 rounded md:text-blue-700"
+                        : "text-gray-700"
+                    }`}
+                  >
+
                     Home
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="/about">
-                  <a className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+
+                  <a
+                    className={`block py-2 pr-4 pl-3 md:bg-transparent md:p-0 ${
+                      currentRoute === "/about"
+                        ? "text-white bg-blue-700 rounded md:text-blue-700"
+                        : "text-gray-700"
+                    }`}
+                  >
+
                     About
                   </a>
                 </Link>
@@ -59,7 +78,15 @@ const Navbar = () => {
 
               <li>
                 <Link href="/bookings">
-                  <a className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+
+                  <a
+                    className={`block py-2 pr-4 pl-3 md:bg-transparent md:p-0 ${
+                      currentRoute === "/bookings"
+                        ? "text-white bg-blue-700 rounded md:text-blue-700"
+                        : "text-gray-700"
+                    }`}
+                  >
+
                     Bookings
                   </a>
                 </Link>
@@ -67,7 +94,15 @@ const Navbar = () => {
 
               <li>
                 <Link href="/contact">
-                  <a className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+
+                  <a
+                    className={`block py-2 pr-4 pl-3 md:bg-transparent md:p-0 ${
+                      currentRoute === "/contact"
+                        ? "text-white bg-blue-700 rounded md:text-blue-700"
+                        : "text-gray-700"
+                    }`}
+                  >
+
                     Contact
                   </a>
                 </Link>
