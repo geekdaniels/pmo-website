@@ -1,11 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 import data from "../../books_data";
 import Books from "./Books";
 import amabooks from "../../public/images/amazon_Books.png";
 
 export default function BooksTop() {
   return (
-
     <div className="relative bg-[#e8e9ec] py-5">
       <div className="absolute left-10 bg-black w-2 h-[110px] sm:left-[90px]"></div>
       <h2 className=" text-xl bg-[#42cbf5] w-fit py-3 items-center rounded font-semibold px-2 mx-[90px] sm:ml-[120px]">
@@ -25,15 +25,26 @@ export default function BooksTop() {
         </div>
         <div>
           <h3 className="mr-[150px] mt-3 text-xl  font-semibold sm:mt-0 sm:text-5xl sm:flex sm:justify-end">
-
             See available books <br /> Visit the store
           </h3>
-          <button
-            href="https://fb.com"
-            className="rounded-xl my-4 py-4 px-[40px] w-fit text-2xl text-white mx-auto bg-yellow-500"
-          >
-            Amazon
-          </button>
+          <div className="block gap-4 sm:flex">
+            <Link href="https://pmo-website-8ydhjh8su-geekdaniels.vercel.app/#">
+            <button
+              className="rounded-xl my-4 py-4 px-[40px] w-fit text-2xl text-white bg-yellow-500"
+            >
+              Amazon
+            </button>
+          </Link>
+
+          <Link href="https://pmo-website-8ydhjh8su-geekdaniels.vercel.app/#">
+            <button
+              className="rounded-xl my-4 py-4 px-[40px] w-fit text-2xl text-white bg-yellow-500"
+            >
+              Okadabooks
+            </button>
+          </Link>
+          </div>
+          
         </div>
       </div>
 
@@ -42,7 +53,6 @@ export default function BooksTop() {
           <Books key={book.id} book={book} />
         ))}
       </div>
-
     </div>
   );
 }
