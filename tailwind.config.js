@@ -21,7 +21,7 @@ module.exports = {
       gridTemplateColumns: {
         // Simple 16 column grid
       },
+      plugins: [],
     },
-    plugins: [],
   },
 };
