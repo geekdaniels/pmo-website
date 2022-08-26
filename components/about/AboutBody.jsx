@@ -9,7 +9,7 @@ const AboutBody = () => {
     <div>
       <div className=" lg:pb-16 md:pb-4">
         <div className="lg:flex md:container md:m-auto w-full max-h-fit pb-5">
-          <div className="font-sans font-normal text-lg md: text-start m-auto p-8">
+          <div className="font-sans font-normal text-sm md: text-start m-auto p-8">
             <h4><span className="font-semibold text-2xl">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Molestiae, nam sapiente culpa doloremque amet delectus eveniet, nihil saepe magnam at illum iste commodi in blanditiis, consectetur quia velit repellat cumque laborum autem? <span className="font-semibold text-2xl">Dignissimos nobis quasi consequuntur</span> excepturi aut temporibus. Non obcaecati culpa hic veritatis similique quas esse laborum eligendi velit?</h4>
           </div>
           <div className="" width={2400} height={3600}>
@@ -24,7 +24,7 @@ const AboutBody = () => {
           <div className="md:container p-4">
             <Image src={pmo3} className=" object-cover h-full " alt="" />
           </div>
-          <div className="font-sans font-normal text-lg m-auto md:text-start p-8">
+          <div className="font-sans font-normal text-sm m-auto md:text-start p-8">
             <h4><span className="font-semibold text-2xl">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Molestiae, nam sapiente culpa doloremque amet delectus eveniet, nihil saepe magnam at illum iste commodi in blanditiis, consectetur quia velit repellat cumque laborum autem? <span className="font-semibold text-2xl">Dignissimos nobis quasi consequuntur</span> excepturi aut temporibus. Non obcaecati culpa hic veritatis similique quas esse laborum eligendi velit?</h4>
           </div>
 
@@ -34,7 +34,7 @@ const AboutBody = () => {
       <div className="pb-8">
         <div className="lg:flex md:container md:m-auto w-full">
 
-          <div className="font-sans font-normal text-lg md:text-justify m-auto lg:text-justify p-8">
+          <div className="font-sans font-normal text-sm md:text-justify m-auto lg:text-justify p-8">
             <h4><span className="font-semibold text-2xl">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Molestiae, nam sapiente culpa doloremque amet delectus eveniet, nihil saepe magnam at illum iste commodi in blanditiis, consectetur quia velit repellat cumque laborum autem? <span className="font-semibold text-2xl">Dignissimos nobis quasi consequuntur</span> excepturi aut temporibus. Non obcaecati culpa hic veritatis similique quas esse laborum eligendi velit?</h4>
           </div>
 
@@ -44,7 +44,7 @@ const AboutBody = () => {
       <div className="">
         <div className="lg:flex md:container md:m-auto w-full max-h-fit pb-5">
 
-          <div className="font-sans font-normal text-lg m-auto p-8">
+          <div className="font-sans font-normal text-sm m-auto p-8">
             <h4><span className="font-semibold text-2xl">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Molestiae, nam sapiente culpa doloremque amet delectus eveniet, nihil saepe magnam at illum iste commodi in blanditiis, consectetur quia velit repellat cumque laborum autem? <span className="font-semibold text-2xl">Dignissimos nobis quasi consequuntur</span> excepturi aut temporibus. Non obcaecati culpa hic veritatis similique quas esse laborum eligendi velit?</h4>
           </div>
           <div className="" width={2400} height={3600}>
@@ -60,7 +60,7 @@ const AboutBody = () => {
             <Image src={pmo5}
               className="object-cover object-top h-full lg:scale-90 " alt="" />
           </div>
-          <div className="font-sans font-normal text-justify text-lg m-auto p-8">
+          <div className="font-sans font-normal text-justify text-sm m-auto p-8">
             <h4><span className="font-semibold text-2xl">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Molestiae, nam sapiente culpa doloremque amet delectus eveniet, nihil saepe magnam at illum iste commodi in blanditiis, consectetur quia velit repellat cumque laborum autem? <span className="font-semibold text-2xl">Dignissimos nobis quasi consequuntur</span> excepturi aut temporibus. Non obcaecati culpa hic veritatis similique quas esse laborum eligendi velit?</h4>
           </div>
 
@@ -71,7 +71,7 @@ const AboutBody = () => {
         <div className="w-full  md:scale-75 pt-2 md:pt-5">
           <Image src={pmo1} className="object-contain  w-auto h-auto mx-auto " alt="" />
         </div>
-        <div className="w-full font-sans font-normal  text-lg text-center mx-auto ">
+        <div className="w-full font-sans font-normal  text-sm text-center mx-auto ">
           <h4><span className="font-semibold text-2xl">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Molestiae, nam sapiente culpa doloremque amet delectus eveniet, nihil saepe magnam at illum iste commodi in blanditiis, consectetur quia velit repellat cumque laborum autem? <span className="font-semibold text-2xl">Dignissimos nobis quasi consequuntur</span> excepturi aut temporibus. Non obcaecati culpa hic veritatis similique quas esse laborum eligendi velit?</h4>
         </div>
 
