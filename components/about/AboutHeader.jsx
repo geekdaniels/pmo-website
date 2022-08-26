@@ -2,11 +2,7 @@ import Image from "next/image";
 import pmo from "../../public/images/pmo.webp";
 const AboutHeader = () => {
   return (
-<<<<<<< HEAD
     <div className=" lg:flex lg:mx-auto lg:gap-8 md:container md:m-auto md:py-12 justify-center w-full px-8">
-=======
-    <div className=" bg-sky-50 lg:flex lg:mx-auto lg:gap-8 md:container md:m-auto md:py-12 justify-center w-full px-8">
->>>>>>> 91007092e3ed1eda75299a3824b219ecc04fa890
       <div className="w-full scale-90">
         <Image src={pmo} className=" drop-shadow-xl w-auto h-auto mx-auto border-solid border-blue-700 border-x-8 rounded-full" alt="" />
       </div>
