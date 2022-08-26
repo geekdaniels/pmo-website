@@ -4,7 +4,7 @@ import AboutFooter from "../components/about/AboutFooter";
 const aboutPage = () => {
     return (
         <div className="relative">
-            <div className="mx-auto text-black">
+            <div className="mx-auto text-black  content-center">
                 <AboutHeader />
                 <AboutBody />
             </div>
