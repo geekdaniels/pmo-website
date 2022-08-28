@@ -3,6 +3,7 @@ import pmo from "../../public/images/pmo.webp";
 const AboutHeader = () => {
   return (
     <div className=" drop-shadow-2xl shadow-sm shadow-gray-200  lg:flex lg:mx-auto lg:gap-8 md:container md:m-auto md:py-12 justify-center w-full px-8">
+
       <div className="w-full scale-90">
         <Image src={pmo} className=" drop-shadow-xl w-auto h-auto mx-auto  rounded-tr-3xl rounded-bl-3xl" alt="" />
       </div>
