@@ -11,7 +11,7 @@ const CustomBooking = ({customOptions, isCustomOptions, openCustomOptions, handl
                     const {id, content} = option
                     return (
                         <div key={id} className='flex items-center w-fit basis-1/2 h-auto border-2 rounded-lg justify-self-center px-2 mb-2'>
-                            <p className='inline-block mr-6'>{content}</p>
+                            <p className='inline-block mr-6 text-black'>{content}</p>
                             <button onClick={() => deleteCustomOption(id)}>
                                 <svg className='text-red-500 pt-1' xmlns="http://www.w3.org/2000/svg" 
                                     width="35" height="35" fill="currentColor" 
@@ -32,7 +32,7 @@ const CustomBooking = ({customOptions, isCustomOptions, openCustomOptions, handl
                     <div className='flex items-center justify-between bg-optionBg border-4 border-optionBg px-5 py-3 mb-2 cursor-pointer' 
                         onClick={(e) => openCustomOptions(e)}
                     >
-                        <h3 className='font-medium'>What would you have me do?</h3>
+                        <h3 className='font-medium text-black'>What would you have me do?</h3>
                         <button onClick={(e) => openCustomOptions(e)}>
                             {
                                 !isCustomOptions ? <svg className='text-formArrow pt-1'
@@ -67,7 +67,7 @@ const CustomBooking = ({customOptions, isCustomOptions, openCustomOptions, handl
                             return (
                                 <li 
                                     key={id} 
-                                    className='hover:bg-headerBg cursor-pointer focus:border-headerBg focus:outline-0 border-0 px-5 py-2 hover:bg-optionsBg'
+                                    className='hover:bg-headerBg cursor-pointer focus:border-headerBg focus:outline-0 border-0 px-5 py-2 hover:bg-optionsBg text-black'
                                     onClick={(e) => handleSelectedOptions(e)}
                                 >
                                     {option}
