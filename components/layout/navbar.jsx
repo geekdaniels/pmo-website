@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="px-4 bg-white border-gray-200 px-2 sm:px-4 py-2.5">
+      <nav className="px-4 bg-white border-gray-200 px-5 sm:px-4 py-2.5">
         <div className="container flex flex-wrap md:flex-nowrap justify-between items-center mx-auto">
           <Link href="/" className="flex items-center">
             <img

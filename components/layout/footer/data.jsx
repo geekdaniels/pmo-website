@@ -7,9 +7,9 @@ export const watchWord = {
 
 export const contacts = {
     title: 'Contact Information',
-    phone: 12345678990,
-    email: 'Loremipsumdolor@mail.com',
-    address: 'Lorem ipsum dolor sit amet consectetur adipisicing elit'
+    phone: '08028117305',
+    email: 'help@martinsolusakin.com',
+    address: '34, fujah street Shitta Bus stop, Surulere, Lagos'
 };
 
 export const booksDetails = [

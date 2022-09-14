@@ -16,7 +16,7 @@ const Footer = (props) => {
 
   return (
     <>
-      <footer className="p-4 bg-white sm:p-6">
+      <footer className="py-4 px-5 md:px-8 bg-white sm:p-6">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2">
             <div className="flex-auto mb-6 md:mb-0">
