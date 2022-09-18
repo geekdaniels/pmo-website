@@ -40,7 +40,7 @@ export default function BooksTop() {
             <button
               className="rounded-xl my-4 py-4 px-[40px] w-fit text-2xl text-white bg-yellow-500"
             >
-              Okadabooks
+              Selar
             </button>
           </Link>
           </div>
