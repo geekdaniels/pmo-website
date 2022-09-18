@@ -1,26 +1,29 @@
-import React from 'react'
 
-const Contacts = ({contacts}) => {
-    const {title, phone, email, address} = contacts;
-    return (
-        <section className='mb-12'>
-            <h3 className='font-thin text-sm text-footerTitle mb-4'>
-                {title} 
-            </h3>
-            <p className='mb-2 text-footerParagraph'>
-                <span className='font-bold'>Phone: </span>
-                {phone} 
-            </p>
-            <p className='mb-2 text-footerParagraph'>
-                <span className='font-bold'>Email: </span>
-                <a href={`mailto:${email}`}>{email}</a> 
-            </p>
-            <p className='mb-2 text-footerParagraph'>
-                <span className='font-bold'>Address: </span> 
-                {address}
-            </p>
-        </section >
-    )
-}
+import React from "react";
 
-export default Contacts
+const Contacts = ({ contacts }) => {
+  const { title, phone, email, address } = contacts;
+  return (
+    <section>
+      <p className="mb-4 text-gray-600">
+        <a href={`tel:${phone}`} className="hover:underline">
+          <span>Phone: </span>
+          {phone}
+        </a>
+      </p>
+
+      <p className="mb-4 text-gray-600">
+        <a href={`mailto:${email}`} className="hover:underline">
+          <span>Email: </span>
+          {email}
+        </a>
+      </p>
+      <p className="mb-4 text-gray-600">
+        <span>Address: </span>
+        {address}
+      </p>
+    </section>
+  );
+};
+
+export default Contacts;

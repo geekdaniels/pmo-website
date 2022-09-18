@@ -3,11 +3,10 @@ import AboutBody from "../components/about/AboutBody";
 import AboutFooter from "../components/about/AboutFooter";
 const aboutPage = () => {
     return (
-        <div className="relative  h-full  bg-blue-700 p-1">
-            <div className="p-2 m-2  text-justify bg-sky-50">
+        <div className="relative">
+            <div className="mx-auto text-black  content-center">
                 <AboutHeader />
                 <AboutBody />
-                <AboutFooter />
             </div>
 
         </div>
