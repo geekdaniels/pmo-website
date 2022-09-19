@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> ce3e4e4c691f4aff258ee003e165565d508e78cc
 import React from "react";
 
 const Contacts = ({ contacts }) => {
