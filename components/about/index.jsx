@@ -9,7 +9,7 @@ import pmo4 from "../../public/images/pmo4.JPG"
 import pmo5 from "../../public/images/pmo5.JPG"
 const About = () => {
   return (
-    <section className="py-6 px-4 bg-[#A6DCEC] md:px-5">
+    <section className="py-6 px-4 xl:bg-[#A6DCEC] md:px-5">
       <section className="items-center text-[11px] xl:grid xl:grid-cols-7">
         <div className="col-span-2"></div>
         <div className="col-span-5">
