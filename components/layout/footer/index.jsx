@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> ce3e4e4c691f4aff258ee003e165565d508e78cc
 import React, { useState } from "react";
 import Link from "next/link";
 import WatchWord from "./Watchword";
