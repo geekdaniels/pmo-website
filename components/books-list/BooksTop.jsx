@@ -28,7 +28,7 @@ export default function BooksTop() {
             See available books <br /> Visit the store
           </h3>
           <div className="block gap-4 sm:flex">
-            <Link href="https://pmo-website-8ydhjh8su-geekdaniels.vercel.app/#">
+            <Link href="https://selar.co/m/Mbusuyi">
             <button
               className="rounded-xl my-4 py-4 px-[40px] w-fit text-2xl text-white bg-yellow-500"
             >
@@ -36,7 +36,7 @@ export default function BooksTop() {
             </button>
           </Link>
 
-          <Link href="https://pmo-website-8ydhjh8su-geekdaniels.vercel.app/#">
+          <Link href="https://selar.co/m/Mbusuyi">
             <button
               className="rounded-xl my-4 py-4 px-[40px] w-fit text-2xl text-white bg-yellow-500"
             >

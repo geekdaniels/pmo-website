@@ -16,7 +16,7 @@ const Books = ({ book }) => (
       </button>
     </Link> */}
 
-    <Link href="https://pmo-website-8ydhjh8su-geekdaniels.vercel.app/#">
+    <Link href="https://selar.co/m/Mbusuyi">
       <button className="mx-auto my-3 py-3 px-4 rounded items-center font-bold text-white justify-between bg-yellow-400 flex">
         <p className="mx-1">{book.okada}</p>
       </button>
