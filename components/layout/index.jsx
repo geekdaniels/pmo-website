@@ -7,7 +7,6 @@ export default function Layout({ children }) {
   return (
     <>
       <div className="bg-white">
-        
         <Navbar />
         <div>{children}</div>
         <Footer />
